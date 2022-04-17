@@ -1,0 +1,37 @@
+[
+  {
+    "date": "2021-12-06",
+    "temperatureC": 1,
+    "summary": "Freezing",
+    "temperatureF": 33,
+    "city": "Darjeeling"
+  },
+  {
+    "date": "2021-01-07",
+    "temperatureC": 14,
+    "summary": "Bracing",
+    "temperatureF": 46,
+    "city": "Pune"
+  },
+  {
+    "date": "2021-12-10",
+    "temperatureC": -2,
+    "summary": "Chilly",
+    "temperatureF": 29,
+    "city": "Delhi"
+  },
+  {
+    "date": "2021-04-10",
+    "temperatureC": 25,
+    "summary": "Chilly",
+    "temperatureF": 57,
+    "city": "Bangalore"
+  },
+  {
+    "date": "2021-05-10",
+    "temperatureC": -2,
+    "summary": "Chilly",
+    "temperatureF": 29,
+    "city": "Chandigarh"
+  }
+]
