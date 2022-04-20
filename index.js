@@ -1,14 +1,14 @@
 const data =require('./sample-weather-data.json');
 const MongoClient = require("mongodb").MongoClient;
 const MONGODB_URI =
-  "your_connection_string";
+  "your_mongodb_connection_string";
 let cachedDb = null;
 async function connectToDatabase() {
   if (cachedDb) {
     return cachedDb;
   }
   const client = await MongoClient.connect(MONGODB_URI);
-  const db = await client.db('your_database');
+  const db = await client.db('database_name');
   cachedDb = db;
   return db
 }
